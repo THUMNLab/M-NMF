@@ -1,3 +1,12 @@
+# TIMERS
+This is a sample implementation of "[Community Preserving Network Embedding](http://cuip.thumedialab.com/papers/NE-Community.pdf)"(AAAI 2017).
+
+### Requirements
+```
+MATLAB 
+```
+
+### Usage
 run `MNMF.m` with matlab
 ```
 function [U, M, H, C, L] = MNMF(S, M, U, H, C, B1, B2, alpha, beta, lambda)
@@ -19,4 +28,15 @@ function [U, M, H, C, L] = MNMF(S, M, U, H, C, B1, B2, alpha, beta, lambda)
 % C: the optimal representations of communities;
 % L: the final values of objective function.
 %%-------------------------------------
+```
+
+### Cite
+If you find this code useful, please cite our paper:
+```
+@inproceedings{wang2017community,
+  title={Community Preserving Network Embedding},
+  author={Wang, Xiao and Cui, Peng and Wang, Jing and Pei, Jian and Zhu, Wenwu and Yang, Shiqiang},
+  booktitle={Proceedings of the 31st AAAI Conference on Artificial Intelligence},
+  year={2017}
+}
 ```
